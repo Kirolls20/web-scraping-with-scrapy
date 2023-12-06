@@ -14,6 +14,7 @@ NEWSPIDER_MODULE = "bookscraper.spiders"
 
 ITEM_PIPELINES = {
     'bookscraper.pipelines.BookscraperPipeline': 300,
+    'bookscraper.pipelines.SaveToMysqlPipline': 400,
 }
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "bookscraper (+http://www.yourdomain.com)"

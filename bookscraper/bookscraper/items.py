@@ -18,6 +18,6 @@ class BookItem(scrapy.Item):
     stars = scrapy.Field()
     price = scrapy.Field()
     description = scrapy.Field()
-    Availability = scrapy.Field()
+    availability = scrapy.Field()
     number_of_reviews = scrapy.Field()
     
